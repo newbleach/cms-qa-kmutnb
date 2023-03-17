@@ -1,0 +1,21 @@
+.login {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	padding: 8px;
+	justify-content: center;
+	align-items: center;
+}
+
+.label {
+	display: flex;
+	align-items: center;
+	padding-left: 16px;
+	align-items: center;
+}
