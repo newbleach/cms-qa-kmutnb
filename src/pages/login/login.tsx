@@ -17,7 +17,7 @@ export default function LoginPage(): ReactElement {
 	const navigate = useNavigate();
 	const style = {
 		mainContainer: {
-			backgroundImage: `url(${'../../../public/icons/bg.jpg'})`
+			backgroundImage: `url(${'/icons/bg.jpg'})`
 		}
 	};
 

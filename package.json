@@ -23,16 +23,23 @@
 		"validate": "run-p lint test:ci test:e2e:headless"
 	},
 	"dependencies": {
+		"@devexpress/dx-react-chart-material-ui": "^4.0.3",
 		"@emotion/react": "^11.10.6",
 		"@emotion/styled": "^11.10.6",
+		"@faker-js/faker": "^7.6.0",
 		"@fontsource/roboto": "^4.5.8",
 		"@headlessui/react": "^1.7.13",
 		"@heroicons/react": "^2.0.16",
+		"@mui/icons-material": "^5.11.11",
 		"@mui/material": "^5.11.13",
 		"@tanstack/react-query": "4.26.1",
+		"chart.js": "^4.2.1",
+		"faker": "^6.6.6",
 		"react": "18.2.0",
+		"react-chartjs-2": "^5.2.0",
 		"react-dom": "18.2.0",
 		"react-router-dom": "6.9.0",
+		"react-spreadsheet-import": "^2.0.8",
 		"sass": "^1.59.3"
 	},
 	"devDependencies": {

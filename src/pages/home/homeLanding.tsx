@@ -1,10 +1,5 @@
-import { Button } from '@mui/material';
-import type { ReactElement } from 'react';
+import MainLayout from 'components/MainLayout/MainLayout';
 
-export default function HOMEPAGE(): ReactElement {
-	return (
-		<div>
-			<Button>Test</Button>
-		</div>
-	);
+export default function homeLanding() {
+	return <MainLayout></MainLayout>;
 }

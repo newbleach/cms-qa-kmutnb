@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const LoginPage = lazy(async () => import('pages/login/login'));
 const Details = lazy(async () => import('pages/Details'));
 const Home = lazy(async () => import('pages/home/homeLanding'));
+const C1 = lazy(async () => import('pages/C1/C1'));
 
 export default function App(): ReactElement {
 	return (
@@ -14,6 +15,7 @@ export default function App(): ReactElement {
 				<Routes>
 					<Route path='/' element={<LoginPage />} />
 					<Route path='/home' element={<Home />} />
+					<Route path='/C1' element={<C1 />} />
 					<Route path=':fruitName' element={<Details />} />
 				</Routes>
 			</Suspense>
