@@ -23,6 +23,15 @@ const MainLayout = ({ children }: MainLayoutPropsType) => {
 	const handleClick = () => {
 		navigate('/C1');
 	};
+	const handleClick2 = () => {
+		navigate('/C2');
+	};
+	const handleClick3 = () => {
+		navigate('/C3');
+	};
+	const handleClick4 = () => {
+		navigate('/C4');
+	};
 	const handleClickHome = () => {
 		navigate('/home');
 	};
@@ -80,7 +89,7 @@ const MainLayout = ({ children }: MainLayoutPropsType) => {
 								<ListItemIcon>
 									<InboxIcon />
 								</ListItemIcon>
-								<ListItemText primary={'C2'} />
+								<ListItemText primary={'C2'} onClick={handleClick2} />
 							</ListItemButton>
 						</ListItem>
 						<ListItem key={'test2'} disablePadding>
@@ -88,7 +97,7 @@ const MainLayout = ({ children }: MainLayoutPropsType) => {
 								<ListItemIcon>
 									<InboxIcon />
 								</ListItemIcon>
-								<ListItemText primary={'C3'} />
+								<ListItemText primary={'C3'} onClick={handleClick3} />
 							</ListItemButton>
 						</ListItem>
 						<ListItem key={'test3'} disablePadding>
@@ -96,7 +105,7 @@ const MainLayout = ({ children }: MainLayoutPropsType) => {
 								<ListItemIcon>
 									<InboxIcon />
 								</ListItemIcon>
-								<ListItemText primary={'C4'} />
+								<ListItemText primary={'C4'} onClick={handleClick4} />
 							</ListItemButton>
 						</ListItem>
 					</List>
